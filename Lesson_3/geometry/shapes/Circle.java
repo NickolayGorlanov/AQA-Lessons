@@ -1,9 +1,9 @@
 package geometry.shapes;
 
 class Circle implements Shape {
-    private double radius;
-    private String fillColor;
-    private String borderColor;
+    private final double radius;
+    private final String fillColor;
+    private final String borderColor;
 
     public Circle(double radius, String fillColor, String borderColor) {
         this.radius = radius;

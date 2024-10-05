@@ -1,10 +1,10 @@
 package geometry.shapes;
 
 class Rectangle implements Shape {
-    private double width;
-    private double height;
-    private String fillColor;
-    private String borderColor;
+    private final double width;
+    private final double height;
+    private final String fillColor;
+    private final String borderColor;
 
     public Rectangle(double width, double height, String fillColor, String borderColor) {
         this.width = width;
