@@ -1,6 +1,6 @@
 package geometry.shapes;
 
-public class Main {
+public class ShapesMain {
     public static void main(String[] args) {
         Shape circle = new Circle(5, "Red", "Black");
         Shape rectangle = new Rectangle(4, 6, "Blue", "Green");

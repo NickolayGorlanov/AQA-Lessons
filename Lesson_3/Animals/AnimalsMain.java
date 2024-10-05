@@ -1,6 +1,6 @@
 package Animals;
 
-public class Main {
+public class AnimalsMain {
     public static void main(String[] args) {
         Dog bobik = new Dog("Бобик");
         Bowl bowl = new Bowl(2); // Создаем миску с 10 единицами еды
